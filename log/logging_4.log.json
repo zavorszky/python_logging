@@ -1,0 +1,12 @@
+{"level": "DEBUG", "message": "Debug \u00fczenet", "timestamp": "2024-11-07 20:20:48.576175+01:00", "logger": "logging_4", "module": "logging_4", "line": 74, "thread_name": "MainThread"}
+{"level": "INFO", "message": "Info uzenet", "timestamp": "2024-11-07 20:20:48.986048+01:00", "logger": "logging_4", "module": "logging_4", "line": 75, "thread_name": "MainThread"}
+{"level": "WARNING", "message": "Warning uzenet", "timestamp": "2024-11-07 20:20:49.010039+01:00", "logger": "logging_4", "module": "logging_4", "line": 76, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "Error uzenet", "timestamp": "2024-11-07 20:20:49.023585+01:00", "logger": "logging_4", "module": "logging_4", "line": 77, "thread_name": "MainThread"}
+{"level": "CRITICAL", "message": "Critical uzenet", "timestamp": "2024-11-07 20:20:49.061949+01:00", "logger": "logging_4", "module": "logging_4", "line": 78, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "Exception \u00fczenet", "timestamp": "2024-11-07 20:20:49.102187+01:00", "logger": "logging_4", "module": "logging_4", "line": 82, "thread_name": "MainThread", "stack_info": null}
+{"level": "DEBUG", "message": "Debug uzenet", "timestamp": "2024-11-07 20:22:11.922686+01:00", "logger": "logging_4", "module": "logging_4", "line": 74, "thread_name": "MainThread"}
+{"level": "INFO", "message": "Info uzenet", "timestamp": "2024-11-07 20:22:12.331028+01:00", "logger": "logging_4", "module": "logging_4", "line": 75, "thread_name": "MainThread"}
+{"level": "WARNING", "message": "Warning uzenet", "timestamp": "2024-11-07 20:22:12.355653+01:00", "logger": "logging_4", "module": "logging_4", "line": 76, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "Error uzenet", "timestamp": "2024-11-07 20:22:12.384141+01:00", "logger": "logging_4", "module": "logging_4", "line": 77, "thread_name": "MainThread"}
+{"level": "CRITICAL", "message": "Critical uzenet", "timestamp": "2024-11-07 20:22:12.415299+01:00", "logger": "logging_4", "module": "logging_4", "line": 78, "thread_name": "MainThread"}
+{"level": "ERROR", "message": "Exception uzenet", "timestamp": "2024-11-07 20:22:12.487385+01:00", "logger": "logging_4", "module": "logging_4", "line": 82, "thread_name": "MainThread", "stack_info": null}

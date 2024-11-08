@@ -1,0 +1,22 @@
+[DEBUG|logging_3|L61] 2024-11-07T16:33:47+0100: Debug üzenet
+[INFO|logging_3|L62] 2024-11-07T16:33:47+0100: Info üzenet
+[WARNING|logging_3|L63] 2024-11-07T16:33:47+0100: Warning üzenet
+[ERROR|logging_3|L64] 2024-11-07T16:33:47+0100: Error üzenet
+[CRITICAL|logging_3|L65] 2024-11-07T16:33:47+0100: Critical üzenet
+[ERROR|logging_3|L69] 2024-11-07T16:33:47+0100: Exception üzenet
+Traceback (most recent call last):
+  File "h:\DADY\rend\konyvtarak\2024\241106_1319_python_logging\python_logging\logging_3.py", line 67, in main
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+[DEBUG|logging_3|L61] 2024-11-07T16:37:57+0100: Debug üzenet
+[INFO|logging_3|L62] 2024-11-07T16:37:57+0100: Info üzenet
+[WARNING|logging_3|L63] 2024-11-07T16:37:58+0100: Warning üzenet
+[ERROR|logging_3|L64] 2024-11-07T16:37:58+0100: Error üzenet
+[CRITICAL|logging_3|L65] 2024-11-07T16:37:58+0100: Critical üzenet
+[ERROR|logging_3|L69] 2024-11-07T16:37:58+0100: Exception üzenet
+Traceback (most recent call last):
+  File "h:\DADY\rend\konyvtarak\2024\241106_1319_python_logging\python_logging\logging_3.py", line 67, in main
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero

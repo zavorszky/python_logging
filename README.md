@@ -14,6 +14,8 @@
 
 [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0&list=PLcLIOuMu3bXrXGdqV7tPTU63a8sVjQDuw&index=30)
 
+Author: James Murphy (mCoding)
+
 ## Hasznos linkek
 
 [Can comments be used in JSON?: stackoverflow](https://stackoverflow.com/questions/244777/can-comments-be-used-in-json)
