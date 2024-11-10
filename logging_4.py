@@ -7,7 +7,6 @@ Logozás:
 * - a file legyen json file
 """
 
-
 import logging
 import logging.config
 
@@ -34,6 +33,7 @@ logging_config = {
                 "timestamp": "timestamp",
                 "logger": "name",
                 "module": "module",
+                "function": "funcName",
                 "line": "lineno",
                 "thread_name": "threadName"
             }
@@ -66,13 +66,68 @@ logging_config = {
     },
 }
 
+logging_config2 = {
+    "version": 1,
+    "disable_existing_loggers": False,
+
+    "formatters": {
+        "simple": {
+            "format": "%(levelname)s: %(message)s",
+        },
+        "detailed":{
+            "format": "[%(levelname)s|%(module)s|L%(lineno)d] %(asctime)s: %(message)s",
+            "datefmt": "%Y-%m-%dT%H:%M:%s"
+        },
+        "json": {
+            "()": "logging_4_logger.MyJSONFormatter2",
+            "fmt_keys": {
+                "level": "levelname",
+                "message": "message",
+                "timestamp": "timestamp",
+                "logger": "name",
+                "module": "module",
+                "function": "funcName",
+                "line": "lineno",
+                "thread_name": "threadName"
+            }
+        }
+    },
+    "handlers": {
+        "stderr": {
+            "class":"logging.StreamHandler",
+            "level": "WARNING",
+            "formatter": "simple",
+            "stream": "ext://sys.stderr",
+        },
+        "file": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "DEBUG",
+            "formatter": "json",
+            "filename": "log/logging_4.log.json",
+            "encoding": "utf-8",
+            "maxBytes": 10000,
+            "backupCount": 3,
+        }
+    },
+    "loggers": {
+        "root": {
+            "level": "DEBUG",
+            "handlers": [
+                "stderr",
+                "file",
+            ]
+        }
+    },
+}
+
 
 def main() -> None:
-    logging.config.dictConfig(config = logging_config)
+    # logging.config.dictConfig(config = logging_config)
+    logging.config.dictConfig(config=logging_config2)
 
     logger.debug("Debug uzenet")
     logger.info("Info uzenet")
-    logger.warning("Warning uzenet")
+    logger.warning("Warning üzenet")
     logger.error("Error uzenet")
     logger.critical("Critical uzenet")
     try:

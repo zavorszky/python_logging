@@ -1,12 +1,6 @@
-{"level": "DEBUG", "message": "Debug \u00fczenet", "timestamp": "2024-11-07 20:20:48.576175+01:00", "logger": "logging_4", "module": "logging_4", "line": 74, "thread_name": "MainThread"}
-{"level": "INFO", "message": "Info uzenet", "timestamp": "2024-11-07 20:20:48.986048+01:00", "logger": "logging_4", "module": "logging_4", "line": 75, "thread_name": "MainThread"}
-{"level": "WARNING", "message": "Warning uzenet", "timestamp": "2024-11-07 20:20:49.010039+01:00", "logger": "logging_4", "module": "logging_4", "line": 76, "thread_name": "MainThread"}
-{"level": "ERROR", "message": "Error uzenet", "timestamp": "2024-11-07 20:20:49.023585+01:00", "logger": "logging_4", "module": "logging_4", "line": 77, "thread_name": "MainThread"}
-{"level": "CRITICAL", "message": "Critical uzenet", "timestamp": "2024-11-07 20:20:49.061949+01:00", "logger": "logging_4", "module": "logging_4", "line": 78, "thread_name": "MainThread"}
-{"level": "ERROR", "message": "Exception \u00fczenet", "timestamp": "2024-11-07 20:20:49.102187+01:00", "logger": "logging_4", "module": "logging_4", "line": 82, "thread_name": "MainThread", "stack_info": null}
-{"level": "DEBUG", "message": "Debug uzenet", "timestamp": "2024-11-07 20:22:11.922686+01:00", "logger": "logging_4", "module": "logging_4", "line": 74, "thread_name": "MainThread"}
-{"level": "INFO", "message": "Info uzenet", "timestamp": "2024-11-07 20:22:12.331028+01:00", "logger": "logging_4", "module": "logging_4", "line": 75, "thread_name": "MainThread"}
-{"level": "WARNING", "message": "Warning uzenet", "timestamp": "2024-11-07 20:22:12.355653+01:00", "logger": "logging_4", "module": "logging_4", "line": 76, "thread_name": "MainThread"}
-{"level": "ERROR", "message": "Error uzenet", "timestamp": "2024-11-07 20:22:12.384141+01:00", "logger": "logging_4", "module": "logging_4", "line": 77, "thread_name": "MainThread"}
-{"level": "CRITICAL", "message": "Critical uzenet", "timestamp": "2024-11-07 20:22:12.415299+01:00", "logger": "logging_4", "module": "logging_4", "line": 78, "thread_name": "MainThread"}
-{"level": "ERROR", "message": "Exception uzenet", "timestamp": "2024-11-07 20:22:12.487385+01:00", "logger": "logging_4", "module": "logging_4", "line": 82, "thread_name": "MainThread", "stack_info": null}
+{"message": "Debug uzenet", "timestamp": "2024-11-10T18:24:01.602609+01:00", "level": "DEBUG", "logger": "logging_4", "module": "logging_4", "function": "main", "line": 128, "thread_name": "MainThread"}
+{"message": "Info uzenet", "timestamp": "2024-11-10T18:24:01.602609+01:00", "level": "INFO", "logger": "logging_4", "module": "logging_4", "function": "main", "line": 129, "thread_name": "MainThread"}
+{"message": "Warning \u00fczenet", "timestamp": "2024-11-10T18:24:02.048949+01:00", "level": "WARNING", "logger": "logging_4", "module": "logging_4", "function": "main", "line": 130, "thread_name": "MainThread"}
+{"message": "Error uzenet", "timestamp": "2024-11-10T18:24:02.099583+01:00", "level": "ERROR", "logger": "logging_4", "module": "logging_4", "function": "main", "line": 131, "thread_name": "MainThread"}
+{"message": "Critical uzenet", "timestamp": "2024-11-10T18:24:02.164072+01:00", "level": "CRITICAL", "logger": "logging_4", "module": "logging_4", "function": "main", "line": 132, "thread_name": "MainThread"}
+{"message": "Exception uzenet", "timestamp": "2024-11-10T18:24:02.182238+01:00", "exc_info": "Traceback (most recent call last):\n  File \"h:\\DADY\\rend\\konyvtarak\\2024\\241106_1319_python_logging\\python_logging\\logging_4.py\", line 134, in main\n    1 / 0\n    ~~^~~\nZeroDivisionError: division by zero", "level": "ERROR", "logger": "logging_4", "module": "logging_4", "function": "main", "line": 136, "thread_name": "MainThread"}
