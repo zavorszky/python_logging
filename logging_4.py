@@ -125,16 +125,17 @@ def main() -> None:
     # logging.config.dictConfig(config = logging_config)
     logging.config.dictConfig(config=logging_config2)
 
-    logger.debug("Debug uzenet")
-    logger.info("Info uzenet")
+    logger.debug("Debug üzenet")
+    logger.info("Info üzenet")
     logger.warning("Warning üzenet")
-    logger.error("Error uzenet")
-    logger.critical("Critical uzenet")
+    logger.error("Error üzenet")
+    logger.critical("Critical üzenet")
     try:
         1 / 0
     except ZeroDivisionError:
-        logger.exception("Exception uzenet")
+        logger.exception("Exception üzenet")
 
+# -----------------------------------------------
 
 if __name__ == "__main__":
     main()

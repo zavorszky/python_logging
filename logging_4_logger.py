@@ -61,10 +61,15 @@ class MyJSONFormatter2(logging.Formatter):
         super().__init__()
         self.fmt_keys = fmt_keys if fmt_keys is not None else {}
 
-    @override
+    #@override
     def format(self, record: logging.LogRecord) -> str:
         message = self._prepare_log_dict(record)
-        return json.dumps(message, default=str)
+        # Figyelem!
+        # Az 'emsure_ascii' paraméter alapértelmezés szerint 'True',
+        # de akkor az ékezetes karakterek nem jelennek meg, csak a kódjuk:
+        # pl.: 'ü' helyett a '\u00fc' karakter sorozat.
+        # Ha 'False', akkor jó a file-ban is a szöveg.
+        return json.dumps(message, ensure_ascii=False, default=str)
 
     def _prepare_log_dict(self, record: logging.LogRecord):
         always_fields: dict = {
