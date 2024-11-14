@@ -9,6 +9,7 @@
 |logging_2.py|#simple_log_file #stderr #file  #napozas_2_helyre<br>  #logging #logging.config #json_config|
 |logging_3.py|#detailed_log_file #stderr #file #napozas_2_helyre<br>  #logging #logging.config #json_config|
 |logging_4.py|#pytz #json #own_formatter<br>  #json_log_file #stderr #file #napozas_2_helyre<br>  #logging #logging.config #json_config|
+|logging_5.py|#queue_hasznalat_naplo_file_iraskor #extra_hasznalat_uzenet_iraskor<br>  #pytz #json #own_formatter<br>  #json_log_file #stderr #file #napozas_2_helyre<br>  #logging #logging.config #json_config|
 
 ## Alap link
 
