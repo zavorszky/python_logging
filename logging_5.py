@@ -1,6 +1,6 @@
 """
 Modern Python logging: Youtube: https://www.youtube.com/watch?v=9L77QExPmI0&list=PLcLIOuMu3bXrXGdqV7tPTU63a8sVjQDuw&index=30
-4. példa
+5. példa
 Logozás:
 * hibák a stderr-re
 * minden üzenet a napló fileba.
